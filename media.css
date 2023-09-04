@@ -1,0 +1,52 @@
+@media (max-width: 600px) {
+
+    .both{
+      
+        flex-direction: column;
+        flex-wrap: wrap;
+      
+      
+      }
+      
+    .both div{
+        flex-basis: 100%;
+      }
+
+      .Partners .row {
+        flex-direction: column;
+        padding: 20px;
+      }
+      .Partners .row img{
+        width: 60%;
+        margin: 5% 0;
+       
+      }
+      .videos{
+       flex-direction: column;
+       
+      
+      }
+      .videos .vid-frame{
+       
+        width: 90%;
+        padding: 0;
+      
+      
+      }
+
+      .col-4{
+        flex-direction: column;
+        height: 170vh;
+      }
+
+      .col{
+        margin-bottom: 20px;
+      }
+      .copy-right{
+        padding-top: 30px;
+      }
+
+      .col{
+        width: 100%;
+      }
+}
